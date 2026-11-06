@@ -9,7 +9,7 @@ using System.Threading.Tasks; // Roda TAREFAS em segundo plano sem travar
 
 public class Produto // O MOLDE oficial de como cada produto é feito
 { // Abre a chave da classe Produto
-    public int Id { get; set; } // O ID único do produto
+    public int Id { get; set; } // O ID único do produto 
     public string Nome { get; set; } // O NOME do produto
     public decimal Preco { get; set; } // O PREÇO do produto
     public int Stock { get; set; } // A QUANTIDADE guardada no armazém
